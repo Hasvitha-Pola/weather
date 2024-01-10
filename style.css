@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-gap: 1rem;
+    max-width: 500px;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #232931; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    color: white;
+    margin-top: 105px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#info{
+    display: none;
+}
+
+#icon{
+    width: 10vw;
+    
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.loc_info .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0;
+  }
+  
+  .loc_info .content .title {
+    font-weight: 600;
+  }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="con">
+      <div id="left">
+        <div class="">
+          <h2 id="day"></h2>
+          <span id="date"></span>
+          <div class="icons">
+            <img id="icon" src="weather.png" style="color: white" alt="" />
+            <h2 id="temp"></h2>
+            <h3 id="description"></h3>
+          </div>
+        </div>
+      </div>
+      <div id="right">
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city" />
+        <button id="searchButton">Search</button>
+        <div class="loc_info" id="info">
+          <div class="content">
+            <p class="title">NAME</p>
+            <span id="loc"></span>
+          </div>
+          <div class="content">
+            <p class="title">MIN. TEMP</p>
+            <span id="temp_min"></span>
+          </div>
+          <div class="content">
+            <p class="title">MAX. TEMP</p>
+            <span id="temp_max"></span>
+          </div>
+          <div class="content">
+            <p class="title">HUMIDITY</p>
+            <span id="humidity"></span>
+          </div>
+          <div class="content">
+            <p class="title">WIND SPEED</p>
+            <span id="wind-speed"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
